@@ -42,5 +42,4 @@ def solution(bandage, health, attacks):
         time_ordinal += 1
 
     answer = health
-    
     return answer
