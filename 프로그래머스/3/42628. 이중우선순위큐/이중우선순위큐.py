@@ -14,8 +14,7 @@ def solution(operations):
                 heap.remove(max(heap))
             elif (spl[1] == "-1") :
                 heapq.heappop(heap)
-            
-    print(heap)
+                
     answer = [0, 0]
     if (len(heap) > 0):
         answer[0] = max(heap)
